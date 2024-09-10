@@ -1,10 +1,10 @@
-
-import './App.css'
+import HomePage from './landing_page/home/HomePage'
+// import './App.css'
 
 function App() {
   return (
     <>
-      <h1>Zerodha Clone</h1>
+      <HomePage />
     </>
   )
 }
