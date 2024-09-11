@@ -5,12 +5,12 @@
     background-color: #387ed1;
     text-decoration: none;
     color: white;
-    font-weight: 500;
+    font-weight: 400;
     border-radius: 4px;
     display: inline-block;
     text-align: center;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 0.3rem;
+    font-size: 1.5rem;
 }
 
 .Hero:hover {
@@ -24,6 +24,14 @@
 
 .container {
     padding: 4rem;
+}
+
+.Hero-p {
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 2.5rem;
 }
 
 /* Responsive styles for mobile devices */
@@ -58,8 +66,8 @@
 
 @media (max-width: 576px) {
     .Hero {
-        width: 50%; /* Further increase button width on very small screens */
-        font-size: 8px; /* Further adjust font size */
+        width: 40%; /* Further increase button width on very small screens */
+        font-size: 12px; /* Further adjust font size */
     }
 
     .container {
@@ -71,10 +79,10 @@
     }
 
     h1 {
-        font-size: 1.25rem; /* Further adjust font size for headings */
+        font-size: 2rem; /* Further adjust font size for headings */
     }
 
     p {
-        font-size: 0.875rem; /* Further adjust font size for paragraph text */
+        font-size: 1rem; /* Further adjust font size for paragraph text */
     }
 }

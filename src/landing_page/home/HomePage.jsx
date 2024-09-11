@@ -13,12 +13,12 @@ export default function HomePage() {
         <>
             <NavBar />
             <Hero />
-            <Awards />
-            <Pricing />
-            <Stats />
+            {/* <Awards /> */}
+            {/* <Stats /> */}
+            {/* <Pricing /> */}
             <Education />
-            <OpenAccount />
-            <Footer />
+            {/* <OpenAccount /> */}
+            {/* <Footer /> */}
         </>
     )
 }
