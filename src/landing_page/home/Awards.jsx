@@ -1,9 +1,36 @@
-import React from 'react';
+import React from "react";
+import "./Awards.css";
 
 function Awards() {
-    return ( 
-        <h1>Awards</h1>
-     );
+  return (
+    <div className="container">
+      <div className="row">
+        <div className="col-6 text-center">
+          <img
+            src="./media/images/index-education.svg"
+            alt="Award Section Image"
+          />
+        </div>
+        <div className="Awards-col col-6">
+          <h2 className="Awards-h2">Free and open market education</h2>
+          <p className="Awards-para">
+            Varsity, the largest online stock market education book in the world
+            covering everything from the basics to advanced trading.
+          </p>
+          <a href="#" className="Awards-link">
+            Varsity &nbsp;<i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <p className="Awards-para">
+            TradingQ&A, the most active trading and investment community in
+            India for all your market related queries.
+          </p>
+          <a href="#" className="Awards-link">
+            TrandingQ&A &nbsp;<i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Awards;

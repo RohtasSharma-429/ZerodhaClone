@@ -1,0 +1,80 @@
+/* Base styles for the Hero button */
+.Hero {
+    width: 18%;
+    margin: 0 auto;
+    background-color: #387ed1;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.Hero:hover {
+    background-color: #424242;
+}
+
+.Hero-img {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 4rem;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .Hero {
+        width: 40%; /* Increase button width for smaller screens */
+        font-size: 8px; /* Adjust font size */
+    }
+
+    .container {
+        padding: 1rem; 
+    }
+
+    .row {
+        text-align: center;
+    }
+
+    img {
+        width: 100%; /* Ensure image scales with screen size */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 2rem; /* Adjust margin for better spacing */
+    }
+
+    h1 {
+        font-size: 1.5rem; /* Adjust font size for headings */
+    }
+
+    p {
+        font-size: 1rem; /* Adjust font size for paragraph text */
+    }
+}
+
+@media (max-width: 576px) {
+    .Hero {
+        width: 50%; /* Further increase button width on very small screens */
+        font-size: 8px; /* Further adjust font size */
+    }
+
+    .container {
+        padding: 0.5rem; /* Further reduce padding */
+    }
+
+    img {
+        margin-bottom: 1rem; /* Further adjust margin */
+    }
+
+    h1 {
+        font-size: 1.25rem; /* Further adjust font size for headings */
+    }
+
+    p {
+        font-size: 0.875rem; /* Further adjust font size for paragraph text */
+    }
+}
