@@ -1,0 +1,57 @@
+/* Base container padding */
+.container {
+    padding: 2rem;
+}
+
+/* Pricing image styling */
+.pricing-img {
+    max-width: 100%; /* Ensure the image scales down appropriately */
+    height: auto;    /* Maintain aspect ratio */
+}
+
+/* Pricing text styling */
+.pricing-txt {
+    font-size: 0.7rem;
+    margin-top: 2rem; /* Adjusted margin for better spacing */
+}
+
+/* Link styling */
+.pricing-a {
+    text-decoration: none;
+    color: #387ed1;
+    font-weight: 600;
+}
+
+/* Flexbox styling for image container */
+.img-contaier {
+    display: flex;
+    align-items: center; /* Center images vertically */
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .container {
+        padding: 1.5rem;
+    }
+
+    .pricing-txt {
+        font-size: 0.6rem; /* Adjust font size for smaller screens */
+        margin-top: 0.5rem; /* Adjust margin for better spacing */
+    }
+
+    /* Adjust flexbox direction for smaller screens */
+    .row {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .col {
+        flex: 1 0 100%; /* Make columns stack vertically and take full width */
+        margin-bottom: 1rem; /* Add space between stacked columns */
+    }
+
+    .pricing-img {
+        width: 80%; /* Ensure images fit within their containers */
+        max-width: 100%; /* Prevent images from exceeding their container's width */
+    }
+}

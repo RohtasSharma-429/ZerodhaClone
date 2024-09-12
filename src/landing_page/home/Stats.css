@@ -8,6 +8,10 @@
 
 }
 
+.stats-col-6 {
+    padding: 2.8rem;
+}
+
 /* .stats-button {
     margin-top: 0.5rem;
 } */
@@ -19,8 +23,9 @@
 }
 
 .stats-pressLogo {
-    margin-top: 2.5rem;
-    margin-left: 8rem;
+    /* margin-top: 0.2rem; */
+    margin-left: 12rem;
+    margin-bottom: 1.5rem;
 }
 
 @media (max-width: 576px) {
