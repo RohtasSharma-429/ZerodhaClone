@@ -13,14 +13,14 @@ function Awards() {
           <p className="awards-p mb-4">2+ million clients contribute to over 15 of all retail order volumes in India daily by trading and investing in:</p>
           <div className="row ">
             <div className="col ">
-              <ul >
+              <ul className="awards-item">
                   <li>Futures and Options</li>
                   <li>Commodity derivatives</li>
                   <li>Currency derivatives</li>
               </ul>
             </div>
-            <div className="col">
-              <ul>
+            <div className="col awards-item">
+              <ul className="awards-item">
                   <li>Stocks and IPOs</li>
                   <li>Direct Mutual Funds</li>
                   <li>Bonds and Govt. Securities</li>

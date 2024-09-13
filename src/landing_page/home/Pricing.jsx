@@ -5,7 +5,7 @@ export default function Pricing() {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-4">
+        <div className="col-4 pricing-unb">
           <h1 className="mb-4 fs-2">Unbeatable pricing</h1>
           <p>
             We pioneered the concept of discount broking and price transparency
@@ -15,7 +15,7 @@ export default function Pricing() {
             See Pricing &nbsp;<i class="fa-solid fa-arrow-right"></i>
           </a>
         </div>
-        <div className="col-8">
+        <div className="col-8 pricing-unb-img">
           <div className="row">
             <div className="col">
               

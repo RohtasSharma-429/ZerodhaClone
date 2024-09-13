@@ -12,40 +12,23 @@
 }
 
 @media (max-width: 576px) {
-    li {
-        font-size: 0.6rem;
+    .awards-item {
+      list-style: none;
+      width: 100%;
+      text-align: left;
     }
-    /* Basic Reset */
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  /* Row Styling */
-  .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  
-  /* Column Styling */
-  .col {
-    flex: 1;
-    padding: 0 1rem; /* Optional: spacing between columns */
-  }
-  
-  /* Ensure list items align properly */
-  .col ul {
-    display: flex;
-    flex-direction: row;
-    margin-left: 1rem;
-  }
-  
-  /* Align items at the start */
-  .col li {
-    display: flex;
-    align-items: flex-start; /* Aligns items to the top of the container */
-  }
+
+    .awards-row {
+      display: flex;
+      flex-direction: row;
+    }
+
+    li {
+      list-style: none;
+      text-align: left;
+      /* margin-left: 1rem; */
+      font-size: 1.1rem;
+    }
+    
   
 }

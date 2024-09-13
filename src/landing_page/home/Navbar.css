@@ -1,0 +1,52 @@
+.nav-item {
+    margin-left: 2rem;
+}
+
+.container-fluid {
+    padding-left: 3rem;
+    margin-right: 6rem;
+}
+
+.navbar-toggler {
+    border: none; /* Remove the border around the button if needed */
+  }
+  
+.navbar-toggler-icon {
+    width: 1.2rem;  /* Smaller size for the hamburger icon */
+    height: 1.2rem; /* Adjust the height as well */
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        width: 50%; /* Adjust logo size on mobile */
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 0; /* Reset margins for mobile */
+        text-align: center;
+    }
+
+    .navbar-nav {
+        width: 100%;
+    }
+
+    .container-fluid {
+        padding-left: 0;
+    }
+    .navbar-toggler-icon {
+        width: 1rem;  /* Make it even smaller for mobile */
+        height: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-logo {
+        width: 100% !important;
+    }
+    .navbar-brand {
+        width: 40%;
+    }
+    .container-fluid {
+        margin-right: 0.5rem;
+    }
+}

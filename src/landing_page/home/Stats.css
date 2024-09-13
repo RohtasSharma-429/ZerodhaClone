@@ -9,7 +9,7 @@
 }
 
 .stats-col-6 {
-    padding: 2.8rem;
+    padding: 3rem;
 }
 
 /* .stats-button {
@@ -23,7 +23,7 @@
 }
 
 .stats-pressLogo {
-    /* margin-top: 0.2rem; */
+    margin-top: 1.5rem;
     margin-left: 12rem;
     margin-bottom: 1.5rem;
 }
@@ -45,4 +45,6 @@
         margin-top: 0.5rem;
         margin-left: 2.5rem;
     }
+
+    
 }

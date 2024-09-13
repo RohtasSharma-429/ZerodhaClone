@@ -17,7 +17,7 @@ export default function HomePage() {
             <Education />
             <Pricing />
             <Awards />
-            {/* <OpenAccount /> */}
+            <OpenAccount />
             {/* <Footer /> */}
         </>
     )
