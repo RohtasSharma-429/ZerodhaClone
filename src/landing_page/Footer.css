@@ -1,0 +1,26 @@
+.container {
+    padding: 2rem !important;
+}
+
+.footer-logo {
+    width: 70%;
+}
+
+.footer-a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-Ltd {
+    font-size: small;
+}
+
+.f-company {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.footer-desc {
+    font-size: 0.7rem;
+}

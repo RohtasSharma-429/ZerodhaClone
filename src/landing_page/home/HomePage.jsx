@@ -18,7 +18,7 @@ export default function HomePage() {
             <Pricing />
             <Awards />
             <OpenAccount />
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }
