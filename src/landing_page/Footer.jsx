@@ -6,7 +6,7 @@ function Footer() {
     <footer className="border-top" style={{backgroundColor: "#fbfbfb"}}>
     <div className="container ">
       <div className="row">
-        <div className="col">
+        <div className="col p-3">
           <img
             src="media/images/logo.svg"
             alt="Footer Logo"
@@ -17,6 +17,18 @@ function Footer() {
             <br />
             All rights reserved.
           </p>
+          <div className="social-links">
+            <a href=""><i class="fa-brands fa-x-twitter custom-icon text-muted"></i></a>
+            <a href=""><i class="fa-brands fa-square-facebook custom-icon text-muted"></i></a>
+            <a href=""><i class="fa-brands fa-instagram custom-icon text-muted"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin custom-icon text-muted"></i></a>
+          </div>
+          <hr />
+          <div className="social-links-2">
+            <a href=""><i class="fa-brands fa-youtube custom-icon text-muted"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp custom-icon text-muted"></i></a>
+            <a href=""><i class="fa-brands fa-telegram custom-icon text-muted"></i></a>
+          </div>
         </div>
         <div className="col">
           <p className="f-company">Company</p>
@@ -152,6 +164,17 @@ function Footer() {
         anyone to trade on behalf of others. If you find anyone claiming to be
         part of Zerodha and offering such services, please <b>create a ticket here</b>.
       </p>
+      <div className="f-details">
+        <a href="" className="text-muted">NSE</a>
+        <a href="" className="text-muted">BSE</a>
+        <a href="" className="text-muted">MCX</a>
+        <a href="" className="text-muted">Terms & Conditions</a>
+        <a href="" className="text-muted">Policies and Procedures</a>
+        <a href="" className="text-muted">Privacy policy</a>
+        <a href="" className="text-muted">Disclosure</a>
+        <a href="" className="text-muted">For investor's attention</a>
+        <a href="" className="text-muted">Investor charter</a>
+      </div>
     </div>
     </footer>
   );
