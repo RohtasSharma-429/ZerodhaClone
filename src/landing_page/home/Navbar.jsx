@@ -53,11 +53,11 @@ export default function NavBar() {
                 Support
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link active" href="#">
                 <i className="fa-solid fa-bars"></i>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
