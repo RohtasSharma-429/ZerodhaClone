@@ -40,19 +40,19 @@ export default function NavBar() {
               </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" to="/products">
                 Products
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" to="/pricing">
                 Pricing
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" to="/support">
                 Support
-              </a>
+              </Link>
             </li>
             {/* <li className="nav-item">
               <a className="nav-link active" href="#">
