@@ -1,0 +1,101 @@
+.about-img {
+    width: 60%;
+    border-radius: 100%;
+    margin-left: 6rem;
+}
+
+.about-pro-des {
+    margin-right: 3rem;
+    margin-top: 2rem;
+}
+
+p a {
+    text-decoration: none;
+}
+
+.team-prof-row {
+    padding: 3rem;
+}
+
+/* Bio Sectiion css */
+
+.bio-img {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-left: 2.5rem;
+}
+
+.bio-img + p {
+    margin-top: 1rem;
+    margin-left: 6.5rem;
+}
+
+.bio-name {
+    line-height: 0.5;
+    margin-left: 6.1rem;
+}
+
+.bio-drop {
+    color: black !important;
+    border: 1px solid white !important;
+    margin-left: 7.5rem !important;
+}
+
+.team-bio-row {
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0.5rem !important;
+    }
+    .about-img {
+        width: 100%;
+        border-radius: 100%;
+        margin-left: 1rem;
+    }
+
+    .team-row {
+        padding: 0.5rem !important;
+    }
+    .team-prof-row {
+        padding: 0.5rem !important;
+    }
+    .about-pro-des {
+        margin-right: 0.3rem;
+        margin-top: 0.2rem;
+        margin-left: 0.7rem;
+    }
+
+    /* bio css */
+    .bio-img {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 100%;
+        margin-left: 0.5rem;
+    }
+    .team-bio-row {
+        display: flex;
+        margin-left: 0.3rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .bio-name {
+        line-height: 0;
+        margin-left: 0.1rem;
+        font-size: 0.6rem !important;
+    }
+    .bio-img + p {
+        margin-top: 0.1rem;
+        margin-left: 1.1rem;
+    }
+    .bio-drop {
+        color: black !important;
+        border: 1px solid white !important;
+        margin-left: 0.5rem !important;
+    }
+}
