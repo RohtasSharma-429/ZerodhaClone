@@ -1,0 +1,180 @@
+.universe-p {
+    font-size: 1.1rem;
+}
+
+/* image */
+.universe-img-one {
+    width: 50%;
+}
+
+.universe-img-two {
+    width: 60%;
+}
+
+.universe-img-three {
+    width: 40%;
+}
+
+/* column */
+.universe-col-one {
+    margin-top: 3rem;
+}
+
+.universe-col-two {
+    margin-top: 3rem;
+}
+
+.universe-col-three {
+    margin-top: 3rem;
+}
+
+/* paragraph */
+
+.universe-p-one {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.universe-p-two {
+    font-size: 0.8rem;
+    margin-top: 1.8rem;
+}
+
+.universe-p-three {
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+}
+
+/* Row */
+.universe-row {
+    margin-top: -5rem;
+}
+
+
+
+
+
+/* image */
+.universe-img-four {
+    width: 50%;
+}
+
+.universe-img-five {
+    width: 60%;
+}
+
+.universe-img-six {
+    width: 40%;
+}
+
+/* column */
+.universe-col-four {
+    margin-top: 3rem;
+}
+
+.universe-col-five {
+    margin-top: 3rem;
+}
+
+.universe-col-six {
+    margin-top: 3rem;
+}
+
+/* paragraph */
+
+.universe-p-four {
+    font-size: 0.8rem;
+    margin-top: 1.2rem;
+}
+
+.universe-p-five {
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+}
+
+.universe-p-six {
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 576px) {
+    .universe-img-one {
+        width: 200%;
+        margin-left: -3rem;
+    }
+    
+    .universe-img-two {
+        width: 200%;
+        margin-left: -3rem;
+    }
+    
+    .universe-img-three {
+        width: 200%;
+        margin-left: -3rem;
+
+    }
+
+    
+
+    /* paragraph */
+
+.universe-p-one {
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 270%;
+    margin-left: -5rem;
+}
+
+.universe-p-two {
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    width: 270%;
+    margin-left: -5rem;
+}
+
+.universe-p-three {
+    font-size: 1rem;
+    margin-top: 0.8rem;
+    width: 270%;
+    margin-left: -5rem;
+}
+
+.universe-img-four {
+    width: 200%;
+    margin-left: -3rem;
+}
+
+.universe-img-five {
+    width: 200%;
+    margin-left: -3rem;
+}
+
+.universe-img-six {
+    width: 170%;
+    margin-left: -2rem;
+}
+
+/* paragraph */
+
+.universe-p-four {
+font-size: 1rem;
+margin-top: 1rem;
+width: 270%;
+margin-left: -5rem;
+}
+
+.universe-p-five {
+font-size: 1rem;
+margin-top: 1.8rem;
+width: 270%;
+margin-left: -5rem;
+}
+
+.universe-p-six {
+font-size: 1rem;
+margin-top: 0.8rem;
+width: 270%;
+margin-left: -5rem;
+}
+    
+}

@@ -1,0 +1,27 @@
+.product-right-col-4 {
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+.product-right-img {
+    margin-top: -2.5rem;
+}
+
+@media (max-width: 576px) {
+    .row {
+        flex-direction: column;
+        padding: 0.5rem !important;
+    }
+    .product-right-col-4 {
+        width: 80%;
+        padding: 0.2rem;
+        margin-top: 0.6rem;
+    }
+
+    .product-right-img {
+        width: 170%;
+        margin-top: -0.5rem;
+        margin-left: -4rem;
+    }
+
+}
