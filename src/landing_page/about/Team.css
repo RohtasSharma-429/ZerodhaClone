@@ -50,16 +50,80 @@ p a {
 
 
 @media (max-width: 576px) {
-    .container {
+
+    .team-h3 {
+        font-size: 2rem;
+    }
+
+    .about-img {
+        width: 150%;
+        border-radius: 100%;
+        margin-left: -2.9rem;
+    }
+
+    .team-p-name {
+        margin-top: 0.4rem !important;
+        margin-left: -2rem;
+    }
+
+    .team-col-6 {
+        width: 100%;
+        margin-left: 1.5rem;
+    }
+
+    .about-pro-des {
+        margin-right: 2.3rem;
+        margin-top: 1.2rem;
+        margin-left: -1rem;
+    }
+
+    /* bio  */
+    .team-bio-row {
+        flex-direction: column;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .bio-img {
+        width: 80%;
+        margin-left: -3rem;
+    }
+    .team-bio-p1 {
+        margin-right: 4rem;
+        margin-left: 1rem !important;
+    }
+
+    .team-bio-p {
+        margin-left: -3rem !important;
+    }
+
+    .bio-name {
+        line-height: 0.3;
+        margin-left: 1.1rem;
+    }
+
+    .bio-drop {
+        color: black !important;
+        border: 1px solid white !important;
+        margin-left: -3rem !important;
+        margin-bottom: 2rem;
+    }
+
+
+
+
+    /* .container {
         padding: 0.5rem !important;
     }
     .about-img {
         width: 100%;
         border-radius: 100%;
         margin-left: 1rem;
-    }
+    } */
 
-    .team-row {
+    /* .team-row {
         padding: 0.5rem !important;
     }
     .team-prof-row {
@@ -69,10 +133,10 @@ p a {
         margin-right: 0.3rem;
         margin-top: 0.2rem;
         margin-left: 0.7rem;
-    }
+    } */
 
     /* bio css */
-    .bio-img {
+    /* .bio-img {
         width: 100%;
         margin: 0 auto;
         border-radius: 100%;
@@ -82,9 +146,9 @@ p a {
         display: flex;
         margin-left: 0.3rem;
         margin-bottom: 0.3rem;
-    }
+    } */
 
-    .bio-name {
+    /* .bio-name {
         line-height: 0;
         margin-left: 0.1rem;
         font-size: 0.6rem !important;
@@ -92,10 +156,10 @@ p a {
     .bio-img + p {
         margin-top: 0.1rem;
         margin-left: 1.1rem;
-    }
-    .bio-drop {
+    } */
+    /* .bio-drop {
         color: black !important;
         border: 1px solid white !important;
         margin-left: 0.5rem !important;
-    }
+    } */
 }

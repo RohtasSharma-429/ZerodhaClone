@@ -64,33 +64,11 @@
 }
 
 @media (max-width: 576px) {
-    .container {
-        padding: 1rem; /* Further reduce container padding for mobile */
+    .home-edu-row {
+        flex-direction: column;
     }
 
-    .row {
-        padding: 1rem;
-        flex-direction: row; /* Stack content vertically on smaller screens */
-    }
-
-    .col-6 {
-        text-align: center; /* Keep text and images centered */
-    }
-
-    img {
-        width: 75%; /* Full-width image for small screens */
-        margin-bottom: 0.25rem; /* Maintain margin for spacing */
-    }
-
-    h2 {
-        font-size: 2rem; /* Adjust font size for small screens */
-    }
-
-    p {
-        font-size: 0.875rem; /* Smaller font for better readability on small screens */
-    }
-
-    .Awards-link {
-        font-size: 0.875rem; /* Adjust link font size */
+    .home-edu-col-6 {
+        width: 100%;
     }
 }

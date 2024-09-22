@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="container mt-5">
       <div className="row p-3 hero-row-p3">
         <div className="row about-h2">
-          <h2>
+          <h2 className="about-h2">
             We pioneered the discount broking model in India.<br></br>
             Now, we are breaking ground with our technology.
           </h2>

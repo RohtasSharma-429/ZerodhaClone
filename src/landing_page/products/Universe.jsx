@@ -36,6 +36,7 @@ export default function Universe() {
                 </div>
 
             </div>
+            <button className='Hero'>Signup for free</button>
         </div>
     )
 }

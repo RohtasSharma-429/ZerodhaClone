@@ -1,18 +1,18 @@
-import React from "react";
+// import React from "react";
 import "./Awards.css";
 
 function Awards() {
   return (
     <div className="container">
-      <div className="row">
-        <div className="col-6">
+      <div className="row home-awards-row">
+        <div className="col-6 home-awards-col-6">
           <img src="media/images/largestBroker.svg" alt="Awards largest broker" />
         </div>
-        <div className="col-6 mt-4 ">
+        <div className="col-6 mt-4 home-awards-col-6">
           <h1 className="awards-h1 mb-3">Largest stock broker in India</h1>
           <p className="awards-p mb-4">2+ million clients contribute to over 15 of all retail order volumes in India daily by trading and investing in:</p>
-          <div className="row ">
-            <div className="col ">
+          <div className="row home-awards-row">
+            <div className="col home-awards-ul-col">
               <ul className="awards-item">
                   <li>Futures and Options</li>
                   <li>Commodity derivatives</li>

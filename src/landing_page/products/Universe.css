@@ -97,20 +97,44 @@
     margin-top: 1.5rem;
 }
 
+.Hero {
+    width: 18%;
+    margin-left: 33rem;
+    background-color: #387ed1;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    border-radius: 4px;
+    display: inline-block;
+    align-items: center;
+    padding: 0.3rem;
+    font-size: 1.5rem;
+    border: 1px solid #387ed1;
+}
+
+.Hero:hover {
+    background-color: #424242;
+}
+
 @media (max-width: 576px) {
+    .Hero {
+        width: 40%; /* Further increase button width on very small screens */
+        font-size: 12px; /* Further adjust font size */
+        margin-left: 5.5rem;
+    }
     .universe-img-one {
-        width: 200%;
-        margin-left: -3rem;
+        width: 75%;
+        margin-left: -1rem;
     }
     
     .universe-img-two {
-        width: 200%;
-        margin-left: -3rem;
+        width: 80%;
+        margin-left: -1rem;
     }
     
     .universe-img-three {
-        width: 200%;
-        margin-left: -3rem;
+        width: 75%;
+        margin-left: -1rem;
 
     }
 
@@ -121,37 +145,37 @@
 .universe-p-one {
     font-size: 1rem;
     margin-top: 1rem;
-    width: 270%;
-    margin-left: -5rem;
+    width: 100%;
+    margin-left: 0.5rem;
 }
 
 .universe-p-two {
     font-size: 1rem;
     margin-top: 1.8rem;
-    width: 270%;
-    margin-left: -5rem;
+    width: 100%;
+    margin-left: 0.5rem;
 }
 
 .universe-p-three {
     font-size: 1rem;
     margin-top: 0.8rem;
-    width: 270%;
-    margin-left: -5rem;
+    width: 100%;
+    margin-left: 0.5rem;
 }
 
 .universe-img-four {
-    width: 200%;
-    margin-left: -3rem;
+    width: 75%;
+    margin-left: -1rem;
 }
 
 .universe-img-five {
-    width: 200%;
-    margin-left: -3rem;
+    width: 75%;
+    margin-left: -1rem;
 }
 
 .universe-img-six {
-    width: 170%;
-    margin-left: -2rem;
+    width: 65%;
+    margin-left: -1rem;
 }
 
 /* paragraph */
@@ -159,22 +183,22 @@
 .universe-p-four {
 font-size: 1rem;
 margin-top: 1rem;
-width: 270%;
-margin-left: -5rem;
+width: 100%;
+margin-left: 0.5rem;
 }
 
 .universe-p-five {
 font-size: 1rem;
 margin-top: 1.8rem;
-width: 270%;
-margin-left: -5rem;
+width: 100%;
+margin-left: 0.5rem;
 }
 
 .universe-p-six {
 font-size: 1rem;
 margin-top: 0.8rem;
-width: 270%;
-margin-left: -5rem;
+width: 100%;
+margin-left: 0.5rem;
 }
     
 }

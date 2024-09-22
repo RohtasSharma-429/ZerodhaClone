@@ -29,22 +29,20 @@
 }
 
 @media (max-width: 576px) {
-    .stats-img {
+    .home-stats-row {
+        flex-direction: column;
+    }
+
+    .home-stats-col-6 {
         width: 100%;
     }
 
-    .container {
-        padding: 1rem;
+    .home-stats-img {
+        width: 110%;
+        margin-left: -0.9rem;
     }
 
-    .row {
-        padding: 1rem;
-    }
-    .stats-pressLogo {
-        width: 75%;
-        margin-top: 0.5rem;
-        margin-left: 2.5rem;
-    }
+    
 
     
 }
