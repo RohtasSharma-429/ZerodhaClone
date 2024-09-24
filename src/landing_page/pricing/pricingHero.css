@@ -1,0 +1,43 @@
+.pricing-hero-h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.pricing-hero-h2 {
+    font-weight: 400;
+}
+
+.pricing-hero-row {
+    margin-top: 11rem;
+    padding: 4rem;
+}
+
+.pricing-hero-img {
+    width: 65%;
+    margin-left: 4rem;
+}
+
+@media (max-width: 576px) {
+    .pricing-hero-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pricing-comp-hero-col-4 {
+        margin-top: 8rem;
+    }
+
+    .pricing-hero-h1 {
+        font-weight: 500;
+        font-size: 3.5rem !important;
+    }
+
+    .pricing-hero-img {
+        width: 75%;
+        margin-left: 1rem;
+    }
+    h2 + p {
+        width: 110% ;
+        margin-left: -0.8rem;
+    }
+}

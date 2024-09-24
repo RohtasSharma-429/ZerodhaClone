@@ -1,0 +1,148 @@
+/* .pricing-broker-btn-1 {
+    border: none;
+    border-bottom: 2px solid #0d6efd;
+    background-color: white;
+    font-size: 2rem;
+    color: #0d6efd;   
+} */
+
+.pricing-broker-btn {
+    margin-left: 1.5rem;
+    margin-left: 3rem;
+    border: none;
+    background-color: white;
+    font-size: 1.5rem;
+    color: #0d6efd;   
+    font-weight: 500;
+}
+
+.activeTab {
+    border-bottom: 2px solid #0d6efd;
+    color: #666;
+
+}
+
+.pricing-broker-btn:hover {
+    color: #666;
+}
+
+/* .pricing-broker-btn-1:hover {
+    color: #666;
+} */
+
+/* .btn-outline-primary {
+    text-decoration: none;
+    border-color: none;
+    border-bottom: 2px solid #0d6efd;
+    transition: none;
+} */
+
+.tab-content {
+    margin-left: 3rem;
+}
+
+.pricing-broker-table {
+    border: 1px solid #666;
+    border-color: rgba(102, 102, 102,0.3);
+
+}
+
+
+
+td {
+    border: none;
+}
+
+tr:nth-of-type(2n) {
+    background-color: #fdfcfa;
+}
+
+tr th {
+    font-weight: 500;
+    border-color: rgba(102, 102, 102,0.3) !important;
+}
+
+td {
+    vertical-align: middle;
+    height: 100%;
+}
+
+.pricing-broker-tab-1 {
+    margin-top: -4.5rem;
+}
+
+.pricing-broker-comp-h4 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    color: #666;
+} 
+
+.pricing-broker-comp-h4 a {
+    text-decoration: none;
+}
+
+.pricing-broker-comp-h6 {
+    color: #666;
+    margin-top: 1.3rem;
+}
+
+.pricing-broker-comp-p  {
+    margin-top: 1.2rem;
+    font-size: 0.8rem;
+}
+
+.pricing-broker-comp-des {
+    margin-top: 0.6rem;
+    font-size: 0.8rem;
+}
+
+.pricing-broker-comp-ul li {
+    margin-top: 0.5rem;
+}
+
+.pricing-charge-acc-opening {
+    margin-top: 5.5rem;
+}
+
+.acc-opening th {
+    padding: 1rem;
+}
+
+.acc-opening td {
+    padding: 1rem;
+}
+
+@media (max-width: 576px) {
+    .tabs {
+        width: 100%;
+        padding: 0.5rem !important;
+    }
+
+    .pricing-broker-btn {
+        margin-left: -0.7rem;
+        margin-right: 1.5rem;
+        border: none;
+        background-color: white;
+        font-size: 1rem;
+        color: #0d6efd;   
+        font-weight: 500;
+    }
+    .activeTab {
+        border-bottom: 2px solid #0d6efd;
+        color: #666;
+    
+    }
+    
+    .pricing-broker-btn:hover {
+        color: #666;
+    }
+
+    .tab-content {
+        width: 100%;
+        margin-top: 5.5rem;
+        margin-left: -0.5rem;
+        padding: 0.3rem !important;
+    }
+}
