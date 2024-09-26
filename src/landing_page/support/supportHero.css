@@ -1,0 +1,119 @@
+.support-container-fluid {
+    background-color: #387ed1;
+    color: white;
+    height: 30rem;
+}
+
+.support-hero-row {
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.support-hero-h4 {
+    font-weight: 400;
+}
+
+.input-box {
+    height: 4rem;
+    padding: 1.5rem;
+}
+
+.support-hero-a {
+    margin-top: 1rem;
+}
+
+.support-hero-a a {
+    color: white;
+    margin-right: 2rem;
+    text-underline-offset: 8px;
+    line-height: 3;
+    text-decoration-thickness: 1px;
+    font-weight: 500;
+}
+
+
+/* second column */
+
+.support-hero-ticket-a {
+    font-weight: 400;
+    float: right;
+    text-underline-offset: 8px;
+    line-height: 3;
+    text-decoration-thickness: 1px;
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+.support-hero-ol {
+    margin-top: 7rem;
+}
+
+.support-hero-ol li a {
+    color: white;
+    line-height: 3;
+    
+}
+
+.support-hero-ol li {
+    margin-left: 2.5rem;
+}
+
+@media (max-width: 576px) {
+    .support-container-fluid {
+        background-color: #387ed1;
+        color: white;
+        height: 50rem;
+    }
+
+    .support-hero-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .support-hero-row-col-6 {
+        width: 100%;
+    }
+
+    .support-hero-row {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .input-box {
+        height: 3rem;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .support-hero-a a {
+        margin-right: 0.4rem;
+        text-underline-offset: 8px;
+        line-height: 2;
+        text-decoration-thickness: 1px;
+        font-weight: 500;
+    }
+
+    .support-hero-ticket-a {
+        font-weight: 400;
+        float: left;
+        text-underline-offset: 8px;
+        line-height: 2;
+        text-decoration-thickness: 1px;
+        color: white;
+        font-size: 1.2rem;
+        margin-left: 2.9rem;
+    
+    }
+
+    .support-hero-ol li {
+        margin-left: -1.5rem;
+    }
+
+    .support-hero-ol {
+        margin-top: 3rem;
+    }
+
+    .support-hero-small-h4 {
+        margin-right: 3rem;
+    }
+}

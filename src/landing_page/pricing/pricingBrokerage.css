@@ -145,4 +145,14 @@ td {
         margin-left: -0.5rem;
         padding: 0.3rem !important;
     }
+
+    .pricing-charge-explain-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pricing-charge-explain-col-6 {
+        width: 100%;
+    }
+    
 }

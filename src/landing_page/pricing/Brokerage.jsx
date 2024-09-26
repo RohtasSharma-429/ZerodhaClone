@@ -290,9 +290,9 @@ export default function Brokerage() {
           <a href="#">Calculate your costs upfront</a> using our brokerage
           calculator
         </h4>
-        <div className="row mt-5">
+        <div className="row mt-5 pricing-charge-explain-row">
           <h4>Charges explained</h4>
-          <div className="col-6">
+          <div className="col-6 pricing-charge-explain-col-6">
             <h6 className="pricing-broker-comp-h6">Securities/Commodities transaction tax</h6>
             <p className="pricing-broker-comp-p">
               Tax by the government when transacting on the exchanges. Charged
@@ -330,7 +330,7 @@ export default function Brokerage() {
               </ul>
             </p>
           </div>
-          <div className="col-6">
+          <div className="col-6 pricing-charge-explain-col-6">
             <h6 className="pricing-broker-comp-h6">GST</h6>
             <p className="pricing-broker-comp-p">
               Tax levied by the government on the services rendered. 18% of (
